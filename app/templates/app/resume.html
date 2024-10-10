@@ -1,0 +1,51 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+<div id="project">
+    <div class="projectCon">
+        <h1>Attendance Management System</h1>
+        <img src="{% static 'images/OMS.JPG' %}">
+        <p> The Attendance Management System is a web app that simplifies student attendance tracking.
+            Admin/teachers can securely log in to access a dashboard, view records, and get real-time notifications when
+            students mark attendance.
+            This system reduces manual work, improves accuracy, and keeps attendance records organized and up-to-date.
+        </p>
+    </div>
+    <div class="projectCon">
+        <h1>Library Management System</h1>
+        <img src="{% static 'images/LMS.JPG' %}">
+        <p>The Integrated Library Management System (ILMS) is designed to meet modern library needs by automating key
+            operations
+            such as user management, book cataloging, and circulation.
+            It serves both library staff and members, providing features like user registration and book borrowing,
+            while outlining the necessary functionalities, constraints, and interfaces.</p>
+    </div>
+    <div class="projectCon">
+        <h1>CentiWellness Management System</h1>
+        <img src="{% static 'images/SPA-MS.png' %}">
+        <p>The Spa Staff Scheduling and Payroll Management System is a user-friendly solution for spa businesses,
+            streamlining staff scheduling and payroll to ensure efficient operations and accurate compensation.</p>
+    </div>
+    <div class="projectCon">
+        <h1>BSIT 2 - 3 Student Portal</h1>
+        <img src="{% static 'images/portal.png' %}">
+        <p>The BSIT 2-3 Student Portal is a web platform aimed at enhancing the academic experience for second-year BSIT
+            students.
+            It provides a central hub for managing student information, registration forms,
+            and class schedules, supporting their academic journey efficiently.</p>
+    </div>
+    <div class="projectCon">
+        <h1>Class Schedule</h1>
+        <img src="{% static 'images/Schedule.png' %}">
+        <p> Creating a class schedule using HTML and CSS involves structuring the HTML markup to
+            represent the schedule and styling it with CSS to make it visually appealing</p>
+    </div>
+    <div class="projectCon">
+        <h1>Snake Game</h1>
+        <img src="{% static 'images/Picture2.png' %}">
+        <p>A Snake Game in Java is a classic example of a simple 2D game. The game involves
+            controlling a snake that moves around a grid, eats food, and grows longer. The goal is
+            to avoid collisions with the game borders and the snake's own body.</p>
+    </div>
+</div>
+{% endblock content %}

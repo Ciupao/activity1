@@ -1,0 +1,10 @@
+{% load static %}
+<nav class="nav-bar">
+    <ul class="navbar">
+        <img src="{% static 'images/Website-Logo.JPG' %}">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="{% url 'resume' %}">Resume</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+</nav>

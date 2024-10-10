@@ -1,0 +1,18 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+<div id="header">
+    <div class="headerCon">
+        <div class="header-text">
+            <div class="home_row1">
+                <h1> Hi, I'm <span>Rhap Rhap Silot </span> <br> from Las Piñas City </h1>
+                <p>Web Developer</p>
+                <a class="btndl" href=" " download="resume.pdf">Download Resume</a>
+            </div>
+            <div class="home_row2">
+                <img src="{% static 'images/me.png' %}" alt="Me" class="me-png" id="Me_png">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
